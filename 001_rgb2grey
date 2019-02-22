@@ -1,0 +1,5 @@
+#Transformamos la imagen a Escala de grises
+i_gray = sk.color.rgb2gray(imagen_original
+
+#Mostramos la imagen 
+sk.io.imshow(i_gray)
