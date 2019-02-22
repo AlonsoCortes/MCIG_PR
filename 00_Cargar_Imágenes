@@ -1,0 +1,7 @@
+#Cargamos la imagen con la siguiente instrucción
+
+imagen_original= sk.io.imread("E:DOCUMENTOS/TRABAJO/MCIG/02/Percepción Remota/P_01_Ejercicio.jpg")
+
+#Mostramos la imagen 
+
+sk.io.imshow(imagen_original)
