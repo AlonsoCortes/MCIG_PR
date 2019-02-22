@@ -1,0 +1,6 @@
+#Calcular histograma
+hist, bins = np.histogram(imagen_original, bins=255)
+width = 0.75 * (bins[1] - bins[0]) #El ancho de las barras
+center = (bins[:-1] + bins[1:]) / 2 #Relación con la escala del eje x.
+plt.bar(center, hist, align='center', width=width)
+plt.show()
