@@ -1,3 +1,6 @@
+#Es una transformación que pretende obtener para una imagen un histograma con una distribución uniforme. 
+#Es decir, que exista el mismo número de pixels para cada nivel de gris del histograma de una imagen monocroma.
+
 # Contrast stretching
 equalizada = exposure.equalize_hist(i_gray)
 #img_rescale_o = exposure.rescale_intensity(i_gray, in_range=(0, 0.7))
