@@ -1,0 +1,16 @@
+#Importamos librerías
+%matplotlib inline
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
+
+from skimage import data, img_as_float
+from skimage import exposure
+import skimage as sk
+from skimage import io
+import warnings
+import numpy as np
+from skimage import io, exposure
+from matplotlib import pyplot as plt
+from IPython.display import Image
+warnings.filterwarnings("ignore")
