@@ -1,0 +1,5 @@
+# Contrast stretching
+equalizada = exposure.equalize_hist(i_gray)
+#img_rescale_o = exposure.rescale_intensity(i_gray, in_range=(0, 0.7))
+#sk.io.imshow(img_rescale_o)
+sk.io.imshow(equalizada)
