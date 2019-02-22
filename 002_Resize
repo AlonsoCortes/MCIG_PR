@@ -1,0 +1,8 @@
+from skimage.transform import resize
+#Cambiamos el tamaño de la imagen
+print(i_gray.shape)
+i_gray_r = resize(i_gray, (316, 559)) #(y,x)
+print(i_gray_r.shape)
+
+#Mostramos la imagen 
+sk.io.imshow(i_gray_r)
